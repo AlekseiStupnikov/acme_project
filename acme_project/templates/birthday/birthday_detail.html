@@ -1,4 +1,3 @@
-<!-- birthday/birthday_detail.html -->
 {% extends "base.html" %}
 
 {% block content %}
@@ -6,7 +5,6 @@
   <hr>
   {% if birthday.image %}
     <div>
-      <!-- Картинку сделаем побольше, чем на странице list/: высотой 200px -->
       <img src="{{ birthday.image.url }}" height="200">
     </div>
   {% endif %}
