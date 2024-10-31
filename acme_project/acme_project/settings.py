@@ -86,7 +86,7 @@ USE_L10N = False
 
 USE_TZ = True
 
-MEDIA_ROOT = BASE_DIR / 'media' 
+MEDIA_ROOT = BASE_DIR / 'media'
 
 STATIC_URL = '/static/'
 
